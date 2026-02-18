@@ -3,7 +3,6 @@ import {
   Leaf, 
   Flame, 
   Recycle, 
-  TrendingUp, 
   MapPin, 
   Award, 
   ArrowRight, 
@@ -15,22 +14,9 @@ import {
   Phone,
   Droplets,
   Factory,
-  ChevronRight,
   Zap,
   Box
 } from 'lucide-react';
-
-// --- Global Styles & Constants ---
-const COLORS = {
-  industrial: '#0a0f0a',
-  gold: '#fbbf24',
-  green: '#16a34a',
-};
-
-/**
- * SEKAM MAS: Perlis Sustainable Solutions
- * A Corporate React Application built for industrial authority and ESG impact.
- */
 
 // --- Sub-Components ---
 
@@ -127,7 +113,7 @@ const Hero = () => {
             </span>
           </h1>
           <p className="text-xl text-gray-400 max-w-lg leading-relaxed font-light">
-            Bridging Perlis’ agricultural heritage with global industrial standards through high-performance bio-energy engineered from 100% natural rice husk.
+            Bridging Perlis' agricultural heritage with global industrial standards through high-performance bio-energy engineered from 100% natural rice husk.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 pt-4">
             <button className="bg-green-600 hover:bg-green-700 text-white px-10 py-5 rounded font-black tracking-widest transition-all shadow-xl shadow-green-900/20 flex items-center justify-center gap-2">
@@ -380,9 +366,9 @@ const Contact = () => {
         <div className="mt-24 pt-12 border-t border-white/5 grid md:grid-cols-2 gap-8 text-left text-sm font-medium text-gray-500">
           <div>&copy; 2026 SEKAM MAS. Part of the 13th Malaysia Plan (RMK-13) Green Initiative.</div>
           <div className="md:text-right flex items-center md:justify-end gap-6 uppercase tracking-widest text-[10px] font-black">
-            <a href="#" className="hover:text-white transition-colors">Privacy</a>
-            <a href="#" className="hover:text-white transition-colors">Terms</a>
-            <a href="#" className="hover:text-white transition-colors">Investor Portal</a>
+            <button type="button" className="hover:text-white transition-colors">Privacy</button>
+            <button type="button" className="hover:text-white transition-colors">Terms</button>
+            <button type="button" className="hover:text-white transition-colors">Investor Portal</button>
           </div>
         </div>
       </div>
