@@ -329,7 +329,7 @@ const Founder = () => {
             </p>
             <div className="pt-4">
               <div className="text-xl font-black text-gray-900 uppercase tracking-tighter">Muhammad Faris bin Jamaluddin</div>
-              <div className="text-sm font-bold text-slate-400 uppercase tracking-widest mt-1">Founder & CEO, SEKAM MAS</div>
+              <div className="text-sm font-bold text-slate-400 uppercase tracking-widest mt-1">Founder of SEKAM MAS Son-in-Law</div>
             </div>
             <p className="text-slate-500 leading-relaxed font-medium">
               A son of Perlis dedicated to moving the state up the value chain—transitioning from primary agriculture to high-value green manufacturing.
@@ -350,7 +350,7 @@ const Contact = () => {
         </h2>
         <div className="flex flex-col items-center gap-8">
           <a 
-            href="https://wa.me/60123456789" 
+            href="60134752186" 
             className="group bg-green-600 hover:bg-green-700 px-12 py-6 rounded-full font-black text-xl tracking-widest transition-all shadow-2xl flex items-center gap-4 active:scale-95"
           >
             <Phone className="w-6 h-6 group-hover:rotate-12 transition-transform" /> 
