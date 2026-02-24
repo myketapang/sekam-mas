@@ -329,7 +329,7 @@ const Founder = () => {
             </p>
             <div className="pt-4">
               <div className="text-xl font-black text-gray-900 uppercase tracking-tighter">Muhammad Faris bin Jamaluddin</div>
-              <div className="text-sm font-bold text-slate-400 uppercase tracking-widest mt-1">Founder of SEKAM MAS Son-in-Law</div>
+              <div className="text-sm font-bold text-slate-400 uppercase tracking-widest mt-1">Founder of SEKAM MAS, A Son-in-Law</div>
             </div>
             <p className="text-slate-500 leading-relaxed font-medium">
               A son of Perlis dedicated to moving the state up the value chain—transitioning from primary agriculture to high-value green manufacturing.
